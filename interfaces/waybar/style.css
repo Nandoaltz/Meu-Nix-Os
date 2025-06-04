@@ -57,11 +57,11 @@ window#waybar.hidden {
 	margin-left: 0px;
 	border-radius: 5px;
 	padding-left: 10px;
-	padding-right: 10px;
+	padding-right: 16px;
 	margin-bottom: 0px;
 	transition: none;
-	color: #1f2335;
-	background:  #BD93F9;
+	color: #BD93F9;
+	background:  #1f2335;
 }
 
 #pulseaudio {
@@ -72,8 +72,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	margin-bottom: 0px;
 	transition: none;
-	color: #1f2335;
-	background:  #BD93F9;
+color: #BD93F9;
+	background:  #1f2335;
 }
 
 #battery {
@@ -84,8 +84,8 @@ window#waybar.hidden {
 	padding-right: 15px;
 	margin-bottom: 0px;
 	transition: none;
-	color: #1f2335;
-	background:  #BD93F9;
+	color: #BD93F9;
+	background:  #1f2335;
 }
 
 #battery.charging, #battery.plugged {
@@ -119,8 +119,8 @@ window#waybar.hidden {
 	padding-right: 10px;
 	margin-bottom: 0px;
 	transition: none;
-	color: #1f2335;
-	background:  #BD93F9;
+color: #BD93F9;
+	background:  #1f2335;
 }
 
 #temperature{
@@ -131,21 +131,20 @@ window#waybar.hidden {
 	padding-right: 10px;
 	margin-bottom: 0px;
 	transition: none;
-	color: #1f2335;
-	background:  #BD93F9;
+	color: #BD93F9;
+	background:  #1f2335;
 }
 
 #clock {
 	font-size: 12px;
-	margin-left: 8px;
+	margin-left: 0px;
 	border-radius: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-bottom: 0px;
 	transition: none;
-	
-	color: #1f2335;
-	background:  #BD93F9;
+	color: #BD93F9;
+	background:  #1f2335;
 }
 
 #calendar {
@@ -167,8 +166,8 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	padding-right: 10px;
 	transition: none;
-	color: #1f2335;
-	background:  #BD93F9;
+	color: #BD93F9;
+	background:  #1f2335;
 }
 
 #cpu {
@@ -180,18 +179,18 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	padding-right: 10px;
 	transition: none;
-	color: #1f2335;
-	background:  #BD93F9;
+	color: #BD93F9;
+	background:  #1f2335;
 }
 
 #tray {
-	margin-left: 8px;
+	margin-left: 0px;
 	padding-left: 10px;
 	margin-bottom: 0px;
 	padding-right: 10px;
 	transition: none;
-	color: #1f2335;
-	background:  #BD93F9;
+	color: #BD93F9;
+	background:  #1f2335;
 }
 
 #custom-launcher {
