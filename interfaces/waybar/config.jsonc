@@ -150,22 +150,23 @@
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
-    "pulseaudio": {
-        "format": "{icon} {volume}%",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
-        },
-        "on-click": "pavucontrol"
+"pulseaudio": {
+    "format": "  {volume}%  {source_volume}%",
+    "format-bluetooth": "{volume}% {icon}   {source_volume}%",
+    "format-bluetooth-muted": " {icon}  ",
+    "format-muted": " ",
+    "format-icons": {
+        "headphone": "",
+        "hands-free": "",
+        "headset": "",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": ["", "", ""]
     },
+    "on-click": "pavucontrol"
+}
+,
     "custom/media": {
         "format": "{icon} {text}",
         "return-type": "json",
